@@ -5,8 +5,18 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/slate/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> -->
 </head>
 <body>
+  <h2>MovieDB</h2>
+
+  <p>
+  <a href="/">Movies</a> |
+  <a href="/actors">Actors</a> |
+  <a href="/directors">Directors</a>
+  </p>
 
 <%= yield %>
 
